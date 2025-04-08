@@ -26,7 +26,7 @@ export function useGame() {
   // Player status
   const isMainWinner = computed(() => gameState.status === "win-main");
   const isWinner = computed(() => gameState.status === "win");
-  const isLoser = computed(() => ["loss"].includes(gameState.status));
+  const isLoser = computed(() => ["loss", "max-attempts"].includes(gameState.status));
 
   const guessedNumbersPlayer = computed(() =>
     gameState.guesses
