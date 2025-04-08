@@ -53,7 +53,7 @@ onMounted(() => {
     <div class="shrink-0 bg-gradient-to-tr from-blue-400 to-blue-700">
       <div class="main-menu p-4">
         <div class="flex justify-end">
-          <Button @click="startNewGame">Start new game</Button>
+          <Button @click="startNewGame">Begin opnieuw</Button>
         </div>
       </div>
 
